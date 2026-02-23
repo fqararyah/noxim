@@ -1,0 +1,3 @@
+# src   dst   cycle   size(flits)
+0       15    100     1024
+5       2     250     2048

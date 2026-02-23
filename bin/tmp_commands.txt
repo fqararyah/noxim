@@ -1,0 +1,2 @@
+run example:
+./noxim -config ../config_examples/default_configMesh.yaml -traffic table ./traffic_tables/traffic_table.txt -detailed -verbose 2 > out/out.txt

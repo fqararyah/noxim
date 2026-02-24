@@ -12,7 +12,7 @@ OTHER_FLAGS="-detailed"
 
 # --- Configuration Variables (change) ---
 TRAFFIC_TABLE_FN="tst.txt"
-CONFIG_FN="default_configMesh.yaml"
+CONFIG_FN="medem_configMesh_4x4.yaml"
 OTUPUT_FN="out_2.txt"
 
 CONFIG_FILE="$CONFIG_DIR/$CONFIG_FN"

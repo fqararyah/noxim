@@ -1,0 +1,2 @@
+
+FLIT_SIZE = 512 # 512 bit

@@ -1,4 +1,5 @@
 import re
+import paths
 
 # The text you provided
 noxim_summary = """
@@ -38,7 +39,7 @@ def parse_noxim_output(text, x_dim=4):
 
     return latency_map, hops_map
 
-with open("./out/out.txt", "r") as f:
+with open(f"{paths.NOXIM_OUTPUT}out.txt", "r") as f:
    log_data = f.read()
 
 latencies, hops = parse_noxim_output(log_data)
